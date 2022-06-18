@@ -11,12 +11,13 @@
   <ItemGroup>
     <None Remove="Statements\" />
     <None Remove="Functions\" />
+    <None Remove=".DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Statements\" />
     <Folder Include="Functions\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Basic2\Interpreter.csproj" />
+    <ProjectReference Include="..\Interpreter\Interpreter.csproj" />
   </ItemGroup>
 </Project>

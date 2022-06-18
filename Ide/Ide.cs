@@ -81,7 +81,7 @@ namespace Basic.Ide
 								interpreter.Immediate(fileLine);
 							}
 						}
-						catch (Exception e)
+						catch (Exception)
 						{
 							Console.Error.WriteLine("Could not load file.");
 						}
