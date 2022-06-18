@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Basic.Ide</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Statements\" />
+    <None Remove="Functions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Statements\" />
+    <Folder Include="Functions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Basic2\Interpreter.csproj" />
+  </ItemGroup>
+</Project>
