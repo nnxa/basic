@@ -1,3 +1,3 @@
 ## BASIC interpreter in C#
 
-![](https://github.com/nnxa/basic/blob/master/basic-demo.gif?raw=true)
+![](https://gitfront.io/r/user-1565323/Mhiswh6XU4Y1/basic/raw/basic-demo.gif)
